@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laporan Studi</title>
+  <link rel="stylesheet" href="latihan.css">
+</head>
+<body>
+  <div class="card">
+    <h1 id="header-title">Laporan Studi</h1>
+    
+    <!-- Form untuk Nama Mahasiswa -->
+    <div class="card">
+      <form>
+        <label for="nama">Nama Mahasiswa</label>
+        <input type="text" id="input-nama" placeholder="Masukkan Nama">
+
+        <label for="nilai">Nilai Mahasiswa</label>
+        <input type="number" id="input-nilai" placeholder="Masukkan Nilai">
+
+        <button id="submit-btn" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <!-- Menampilkan Hasil -->
+    <div>
+      <p>Nama: <span id="nama-mhs"></span></p>
+      <p>Nilai: <span id="nilai-mhs"></span></p>
+      <p id="status-kelulusan">Status: Sedang diproses...</p>
+    </div>
+  </div>
+
+  <script src="latihan.js"></script>
+</body>
+</html>
